@@ -14,6 +14,7 @@ function Main() {
       .then(data => setData(data))
   }, [])
 
+  /// toda vez que alterar country a função é chamada de novo 
   useEffect(() => {    
     getCovidData(country)
   }, [getCovidData, country])

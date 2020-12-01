@@ -6,6 +6,9 @@ import Skeleton from './Skeleton'
 import Select from './Select'
 import MenuItem from './MenuItem'
 
+/// facilita a utilização. O webpack saberá quaias componentes
+/// serão usados devido ao three-shake 
+
 export {
   Button,
   Card,
